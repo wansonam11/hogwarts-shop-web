@@ -51,7 +51,7 @@ function UploadPage() {
   return (
     <div>
       <header>
-        <Link to={"/"}>
+        <Link to={"/list"}>
           <h1>
             <img
               onclick="location.href='mypage.html'"
