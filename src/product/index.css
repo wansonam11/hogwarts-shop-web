@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Fredericka+the+Great&family=PT+Serif&family=Rajdhani&family=Raleway&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style: none;
 }
 
@@ -26,7 +29,8 @@ table {
   border-collapse: collapse;
 }
 
-input, label {
+input,
+label {
   vertical-align: middle;
 }
 
@@ -37,12 +41,14 @@ input, label {
 }
 
 header {
-    z-index: 3;
+  z-index: 3;
 }
+
 body {
   font: 17px/1.4 "IM Fell French Canon";
   letter-spacing: 1px;
 }
+
 body figure {
   width: 100%;
   height: 100vh;
@@ -52,27 +58,32 @@ body figure {
   overflow: hidden;
   z-index: 1;
 }
+
 body figure video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+
 }
+
 body figure .txt {
   position: absolute;
   left: 6vw;
   top: 40%;
   transform: translateY(-50%);
 }
+
 body figure .txt ul li {
   color: #fff;
 }
+
 body figure .txt ul li a {
   font: normal 2.5vw/1 "PT Serif";
   text-shadow: 0px 0px 20px #b69452;
   position: absolute;
   left: 20%;
 }
+
 body figure .txt ul li p {
   font: bold 4vw/2 "Orbitron";
   letter-spacing: 1px;
@@ -81,6 +92,7 @@ body figure .txt ul li p {
   color: transparent;
   -webkit-background-clip: text;
 }
+
 body nav {
   /* width: 90vw; */
   left: 17%;
@@ -91,6 +103,7 @@ body nav {
   cursor: pointer;
 
 }
+
 body nav span {
   width: 120%;
   height: 60px;
@@ -107,8 +120,9 @@ body nav span {
   border-radius: 10px;
   text-shadow: 0px 0px 10px #1f1e1d;
   transition: .7s;
-  
+
 }
+
 body nav span:hover {
   opacity: 1;
   transform: scale(1.05);
@@ -123,7 +137,7 @@ body nav span:hover {
   justify-content: center;
 }
 
-#image-box > img {
+#image-box>img {
   height: 100%;
   max-height: 300px;
   margin-top: 200px;
@@ -143,12 +157,12 @@ body nav span:hover {
   font: bold 30px/1 "orbitron";
 }
 
-#profile-box > img {
+#profile-box>img {
   width: 50px;
   height: 50px;
 }
 
-#profile-box > span {
+#profile-box>span {
   font-size: 15px;
   margin-left: 8px;
   font-weight: 600;
@@ -167,7 +181,7 @@ body nav span:hover {
   text-shadow: 0px 0px 20px #eed39e;
 }
 
-#contents-box > span {
+#contents-box>span {
   padding: 16px;
 
 }
@@ -198,18 +212,20 @@ body nav span:hover {
 #description {
   margin-top: 16px;
   font-size: 16px;
-  font: bold 22px/1 "Fredericka the Great";
+  font: bold 22px/1 "Rajdhani";
 }
 
 #purchase-button {
+  z-index: 4;
   margin-top: 10px;
   margin-bottom: 16px;
-position: absolute;
-margin-right: 110px;
-background: rgb(224, 161, 2);
+  position: absolute;
+  margin-right: 110px;
+  background: rgb(224, 161, 2);
 }
 
 #delete-button {
+  z-index: 4;
   margin-top: 10px;
   margin-bottom: 16px;
   margin-left: 20px;
