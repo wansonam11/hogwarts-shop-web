@@ -150,7 +150,7 @@ body > BUTTON {
 }
 
 #upload-button {
-  background: rgb(224, 161, 2);
+  background: rgba(255, 255, 255, 0.5);
   border: 0px;
 }
 
